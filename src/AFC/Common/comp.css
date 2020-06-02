@@ -1,0 +1,524 @@
+
+
+/************************************************************************************/
+/*	Component Default Style 														*/
+/************************************************************************************/
+
+/* old version
+.AButton-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+    background-color: #f0f0f0;
+    color:#000000;
+    border: 0px solid;
+    overflow: hidden;
+}
+
+.AButton-Style span
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	white-space: pre-line;
+}
+*/
+
+
+.AButton-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+    background-size: 100% 100%;
+    display: inline-block;
+	font-family: inherit; 
+	white-space: normal;
+	text-decoration: none;
+	padding: 0px;
+	outline: 0;
+	-webkit-tap-highlight-color: transparent;
+    cursor:pointer;
+}
+
+/*
+.AButton-Style > span
+{
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	white-space: pre-line;
+	box-sizing: border-box;
+	border: 0px solid white;
+}
+*/
+
+/*-----------------------------------------------------------------------*/
+/* old version
+.ALabel-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	color: #ffffff;
+    border: 0px solid;
+    overflow: hidden;
+}
+
+.ALabel-Style span
+{
+	display: table-cell;
+	vertical-align: middle;
+	white-space: pre-line;
+}
+*/
+
+.ALabel-Style
+{
+	position: absolute;
+	/*box-sizing: border-box;*/
+	/*border: 0px solid;*/
+	display: inline-table;
+	table-layout: fixed;
+	overflow: hidden;
+}
+
+.ALabel-Style > span
+{
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	word-wrap: break-word;
+	word-break: break-all;
+	box-sizing: border-box;
+	border: 0px solid white;
+}
+
+/*-----------------------------------------------------------------------*/
+.ACheckBox-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+    line-height: 40px;
+    text-align: left;
+    padding-left: 35px;
+    cursor:pointer;
+}
+
+/*-----------------------------------------------------------------------*/
+.ARadioButton-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 35px;
+    cursor:pointer;
+}
+
+/*-----------------------------------------------------------------------*/
+.ARadioGroup-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+    border: 0px solid;
+    overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------*/
+.ATextField-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	padding : 0px;
+}
+
+/*-----------------------------------------------------------------------*/
+.ASlider-Style
+{
+	position: absolute;
+    box-sizing: border-box;
+    border: 0px solid;
+    padding: 0px;
+    margin: 0px;  
+}
+
+/*-----------------------------------------------------------------------*/
+.ATextArea-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+}
+
+/*-----------------------------------------------------------------------*/
+.ADropBox-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------*/
+.ASelectBox-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+}
+
+/*-----------------------------------------------------------------------*/
+.AGrid-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.AGrid-Style table td
+{
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------*/
+.ASwitchButton-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------*/
+.AImage-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+    background-size: 100% 100%;
+}
+
+/*-----------------------------------------------------------------------*/
+.ACanvas-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    border: 0px solid;
+}
+
+/*-----------------------------------------------------------------------*/
+.AProgress-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.AProgress-Style div
+{
+	width:40%;
+	height:100%;
+	border-radius:20px;	
+}
+
+/*-----------------------------------------------------------------------*/
+.ADatePicker-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;  
+}
+
+/*-----------------------------------------------------------------------*/
+.ATimePicker-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;  
+}
+
+/*-----------------------------------------------------------------------*/
+.AView-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	border: 0px solid;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------*/
+.APage-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*-----------------------------------------------------------------------*/
+.AWindow-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+/*--------------------------------  ---------------------------------------*/
+.AListView-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+	/*overflow: auto;*/
+}
+
+.listview_row
+{
+	position: relative;
+}
+
+/*------------------------------  -----------------------------------------*/
+.ATabView-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ATabView-Style .tabArea
+{
+	position: absolute;
+	width:100%;
+	overflow: auto; 
+	white-space: nowrap;
+}
+
+.ATabView-Style .tabContents
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	box-sizing:border-box;    	
+	width:100%;
+	height:100%;
+}
+
+.ATabView-PageTabArea
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+}
+
+.ATabView-PageContents
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;    	
+	height:100%;
+}
+
+.ATabView-select
+{
+	display:inline-block;
+	height:100%;
+	text-align:center;
+	background-size: 100% 100%;
+	cursor:pointer;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.ATabView-diselect
+{
+	display:inline-block;
+	height:100%;
+	text-align:center;
+	background-size: 100% 100%;
+	cursor:pointer;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------*/
+.AToolBar-Style
+{
+	position: absolute;
+	box-sizing: border-box;
+    background-color: #000000;
+    border: 0px solid;
+    overflow: auto;
+    white-space: nowrap;
+    
+	/*display: -webkit-box;*/      /* OLD - iOS 6-, Safari 3.1-6 */
+	/*display: -moz-box;*/         /* OLD - Firefox 19- (buggy but mostly works) */
+	/*display: -ms-flexbox;*/      /* TWEENER - IE 10 */
+	/*display: -webkit-flex;*/     /* NEW - Chrome */
+	/*display: flex;*/             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.ScrollLeft::before
+{
+	content:'';
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 100%;
+	background-image:url("../../img/img_left.png") ;
+	background-repeat: no-repeat;
+ 	background-size: 17px 30px;
+ 	background-position: center;
+}
+
+.ScrollRight::after
+{
+	content:'';
+	position:absolute;
+	right: 0px;
+	top: 0px;
+	width: 20px;
+	height: 100%;
+	background-image:url("../../img/img_right.png") ;
+	background-repeat: no-repeat;
+ 	background-size: 17px 30px;
+ 	background-position: center;
+}
+/*------------------------------  -----------------------------------------*/
+.AWebView-Style
+{
+	position: absolute;
+	box-sizing: border-box; 
+    border: 0px solid;
+    overflow: auto;
+}
+
+.AWebView-Style iframe
+{
+	width: 100%;
+	height: 100%;
+}
+
+/*ACheckBox*/
+.checkbox-normal
+{
+	background-position: 0px center;
+	background-repeat: no-repeat;
+}
+
+.checkbox-check
+{
+	background-position: 0px center;
+	background-repeat: no-repeat;
+}
+
+/*ASwitchButton*/
+.switch-back-off
+{
+	border-radius: 25%/50%;
+	cursor:pointer;
+}
+
+.switch-back-on
+{
+	border-radius: 25%/50%;
+	cursor:pointer;
+}
+
+.switch-bar-off
+{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 0px;
+	border-radius: 50%; 	
+}
+
+.switch-bar-on
+{
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 50%;
+	border-radius: 50%;
+}
+
+/*ADropBox css*/
+.dropboxBack
+{
+	width: 100%;
+	height: 100%;
+}
+
+.dropboxLabel
+{
+	position:absolute;
+	left:0px;
+	display:inline-block;
+	border:none;
+	margin: 0px;
+	padding-left:10px;
+	width: 90%;
+	height: 100%;
+}
+
+.dropboxLabel:focus
+{
+	outline:0px;
+}
+
+.dropboxButton
+{
+	position:absolute;
+	display:inline-block;
+	background-position: center;
+	background-repeat: no-repeat;
+	right:5px;
+	width:40px;
+	height:100%;	
+}
+
+.dropboxList
+{
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+	width: 100%;
+	max-height: 300px;
+	white-space: nowrap;
+	overflow:auto;
+}
+
+.dropboxCell
+{
+	font-size: 24px;
+	margin: 0;
+	padding: 10px 0px 10px 0px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.scrollarrow-top
+{
+	width: 24px;
+	height: 24px;
+}
+
+.scrollarrow-bottom
+{
+	width: 24px;
+	height: 24px;
+}
+
+.scrollarrow-left
+{
+	width: 24px;
+	height: 24px;
+}
+
+.scrollarrow-right
+{
+	width: 24px;
+	height: 24px;
+}
