@@ -8,8 +8,6 @@ module.exports = {
 		es6: true,
 	},
 	rules: {
-		'func-names': 0,
-		'linebreak-style': 0,
 		'no-undef': 0,
 		'prefer-arrow-callback': 2,
 		'arrow-body-style': ['error', 'always'],
